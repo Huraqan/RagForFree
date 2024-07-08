@@ -68,5 +68,6 @@ For some help expanding the prompt function [OpenAI documentation](https://platf
 This project is licensed under the MIT License. Include LICENCE file and do whatever else you please 😘
 
 ## Acknowledgements
+- OpenAI for providing a python LLM API.
 - LM Studio for providing the local model server.
 - PyPDF for PDF text extraction.
