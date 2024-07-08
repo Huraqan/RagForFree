@@ -61,5 +61,5 @@ response = prompt(system_input, user_input, temperature=0).choices[0].message.co
 
 `'Sebastiaan Indesteege is a Junior Data Scientist with interests in programming, machine learning, data analysis, deployment, visual design, and music production. He has experience working on various projects, including developing an app for visual latent-space exploration of a Conv-VAE, creating a word-relevance web app using transformers, coding a neural network from scratch using numpy, developing a tariff plan prediction model for Orange, and developing a scraping tool for use with ImmoWeb website. He also has experience in procedural modeling, animation & texturing, exploratory game development, and music production.'`
 
-## Further Developement
+## Further Development
 For some help expanding the prompt function [OpenAI documentation](https://platform.openai.com/docs/api-reference/chat/create) and [LM Studio documentation](https://lmstudio.ai/docs/local-server) provide more information about supported payload parameters.
