@@ -63,3 +63,10 @@ response = prompt(system_input, user_input, temperature=0).choices[0].message.co
 
 ## Further Development
 For some help expanding the prompt function [OpenAI documentation](https://platform.openai.com/docs/api-reference/chat/create) and [LM Studio documentation](https://lmstudio.ai/docs/local-server) provide more information about supported payload parameters.
+
+## License
+This project is licensed under the MIT License. Include LICENCE file and do whatever else you please 😘
+
+## Acknowledgements
+- LM Studio for providing the local model server.
+- PyPDF for PDF text extraction.
