@@ -2,7 +2,9 @@
 
 ![python version](https://img.shields.io/badge/python-v3.12.1-green?logo=python)
 
-This repository demonstrates how to perform Retrieval-Augmented Generation (RAG) through Python using locally running language models with LM Studio. The code integrates a local instance of an OpenAI-compatible API and performs text extraction from PDF files. This projects also demonstrates semantic search through the use of embeddings. This allows us to augment a prompt with the relevant document(s) only.
+Retrieval-Augmented Generation (RAG) is a technique that enhances the capabilities of generative models by integrating information retrieval. It combines a retrieval component, which searches a database or corpus for relevant documents, with a generative component, which uses the retrieved information to generate more accurate and contextually relevant responses. This approach helps the model to produce more informed and precise outputs, especially for tasks requiring up-to-date or specific information.
+
+This repository demonstrates RAG through Python using locally running language models with LM Studio. The code integrates a local instance of an OpenAI-compatible API and performs text extraction from PDF files. This projects also demonstrates semantic search through the use of embeddings, allowing us to augment a prompt with the relevant document(s) only.
 
 ## Features
 
