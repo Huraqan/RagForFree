@@ -7,7 +7,7 @@ This repository demonstrates how to perform Retrieval-Augmented Generation (RAG)
 ## Features
 
 - **Local Language Model Integration**: Leverage local language models using LM Studio.
-- **PDF Text Extraction**: Extract text from PDF documents using the `pypdf` library.
+- **PDF Text Extraction**: Extract text and links from PDF documents using the `pdfx` library.
 - **Retrieval-Augmented Generation**: Generate responses based on provided system inputs (in this case the retrieved documents and instructions) and user queries (questions about the documents).
 - **Embeddings:** Improve RAG with semantic search and retrieve relevant documents only.
 - **Chatbot:** Keep a conversation going while using RAG.
@@ -62,5 +62,5 @@ This project is licensed under the MIT License. Include LICENCE file and do what
 ## Acknowledgements
 - OpenAI for providing their Python API.
 - LM Studio for providing the local model server.
-- PyPDF for PDF text extraction.
+- pdfx for PDF text and links extraction.
 - scikit-learn for the cosine similarity
